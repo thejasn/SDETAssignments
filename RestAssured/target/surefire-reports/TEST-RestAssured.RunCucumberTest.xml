@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="RestAssured.RunCucumberTest" time="13.701" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/thejas/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M3/surefire-booter-3.0.0-M3.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M3/surefire-api-3.0.0-M3.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M3/surefire-logger-api-3.0.0-M3.jar:/home/thejas/IdeaProjects/RestAssured/target/test-classes:/home/thejas/IdeaProjects/RestAssured/target/classes:/home/thejas/.m2/repository/io/cucumber/cucumber-java/2.3.1/cucumber-java-2.3.1.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar:/home/thejas/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/thejas/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/thejas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-junit/2.3.1/cucumber-junit-2.3.1.jar:/home/thejas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/thejas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/thejas/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/thejas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/thejas/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/home/thejas/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/thejas/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/thejas/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/home/thejas/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/home/thejas/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/home/thejas/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/thejas/.m2/repository/org/json/json/20180813/json-20180813.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/surefire-junit4/3.0.0-M3/surefire-junit4-3.0.0-M3.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M3/common-java5-3.0.0-M3.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0-M3/common-junit3-3.0.0-M3.jar:/home/thejas/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0-M3/common-junit4-3.0.0-M3.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/thejas/IdeaProjects/RestAssured/target/surefire 2018-12-25T14-59-21_751-jvmRun1 surefire7115628419153036787tmp surefire_0560760584742202544tmp"/>
+    <property name="surefire.test.class.path" value="/home/thejas/IdeaProjects/RestAssured/target/test-classes:/home/thejas/IdeaProjects/RestAssured/target/classes:/home/thejas/.m2/repository/io/cucumber/cucumber-java/2.3.1/cucumber-java-2.3.1.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar:/home/thejas/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/thejas/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/thejas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/thejas/.m2/repository/io/cucumber/cucumber-junit/2.3.1/cucumber-junit-2.3.1.jar:/home/thejas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/thejas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/thejas/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/thejas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/thejas/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/thejas/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/home/thejas/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/thejas/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/thejas/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/home/thejas/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/home/thejas/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/home/thejas/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/home/thejas/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/thejas/.m2/repository/org/json/json/20180813/json-20180813.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/thejas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/thejas/IdeaProjects/RestAssured"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-8u181-b13-2~deb9u1-b13"/>
+    <property name="user.name" value="thejas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.9.0-6-amd64"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/thejas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/home/thejas/IdeaProjects/RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Verify get operation for all posts" classname="This is to verify all operations using Rest Assured" time="5.948"/>
+  <testcase name="Request a particular post" classname="This is to verify all operations using Rest Assured" time="0.693"/>
+  <testcase name="Put up a particular post" classname="This is to verify all operations using Rest Assured" time="1.094">
+    <failure message="expected:&lt;202&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<202> but was:<404>
+]]></failure>
+    <system-out><![CDATA[
+  Scenario: Put up a particular post                    &amp#27;[90m# RestAssured/GetPost.feature:16&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mWith the following details for put:&amp#27;[0m           &amp#27;[90m# Stepdefs.withTheFollowingDetailsForPut(String>)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mMake a put request to "&amp#27;[0m&amp#27;[32m&amp#27;[1m/posts/1&amp#27;[0m&amp#27;[32m"&amp#27;[0m               &amp#27;[90m# Stepdefs.makeAPutRequestTo(String)&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify the response body and the status as &amp#27;[0m&amp#27;[31m&amp#27;[1m202&amp#27;[0m &amp#27;[90m# Stepdefs.verifyTheResponseBodyAndTheStatusAs(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<202> but was:<404>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at RestAssured.Stepdefs.verifyTheResponseBodyAndTheStatusAs(Stepdefs.java:67)
+	at ✽.Verify the response body and the status as 202(RestAssured/GetPost.feature:23)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Make a Patch request" classname="This is to verify all operations using Rest Assured" time="0.867"/>
+  <testcase name="Delete a particular post" classname="This is to verify all operations using Rest Assured" time="0.847"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="1.393"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="0.525"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="0.321"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="0.824"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="0.305"/>
+  <testcase name="Verify response lengths" classname="This is to verify all operations using Rest Assured" time="0.286"/>
+</testsuite>
